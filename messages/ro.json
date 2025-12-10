@@ -1,6 +1,39 @@
 {
   "HomePage": {
-    "title": "WELCOME"
+    "title": "WELCOME",
+
+    "Hero": {
+      "headlines": [
+        "You don’t wear it. You awaken it.",
+        "It’s not jewelry. It’s a reflection of you.",
+        "More than shine. It’s presence.",
+        "Not made to match. Made to reveal.",
+        "Adorn the unseen.",
+        "Where elegance meets instinct.",
+        "Born from silence. Made to speak.",
+        "You don’t own it. You embody it.",
+        "Crafted for the soul, not the showcase."
+      ],
+      "subhead": "Your birth chart, shaped into light."
+    },
+
+    "Banners": {
+      "banner_1": {
+        "title": "Nothing less\nthan pure light.",
+        "content": "Every talisman begins with uncompromising materials. We work exclusively with VVS diamonds and precious metals refined to the highest standards, each stone hand-set to reveal its full clarity and fire. Because when a piece is meant to protect you, it deserves the finest light we can find.",
+        "cta": "CREATE YOUR TALISMAN"
+      },
+      "banner_2": {
+        "title": "From a star map to\n a stone you can touch.",
+        "content": "Your birth chart is translated by our AI into shapes, lines and colours – the secret architecture of your personal talisman. Rubies, garnets or rare red stones are then chosen to embody that energy, carved and set by our artisans. What starts as an invisible pattern in the sky becomes a jewel that lives on your skin.",
+        "cta": "CREATE YOUR TALISMAN"
+      },
+      "banner_3": {
+        "title": "Nothing less\nthan pure light.",
+        "content": "Every talisman begins with uncompromising materials. We work exclusively with VVS diamonds and precious metals refined to the highest standards, each stone hand-set to reveal its full clarity and fire. Because when a piece is meant to protect you, it deserves the finest light we can find.",
+        "cta": "CREATE YOUR TALISMAN"
+      }
+    }
   },
 
   "LocaleSwitcher": {
@@ -9,21 +42,21 @@
   },
 
   "Navigation": {
-    "menu": "Meniu",
-    "openMenu": "Deschide meniul",
-    "closeMenu": "Închide meniul",
-    "goHome": "Mergi la pagina principală",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "goHome": "Go home",
 
-    "home": "Acasă",
-    "login": "Autentificare",
+    "home": "Home",
+    "login": "Login",
     "studio": "Studio",
-    "gallery": "Galerie",
-    "about": "Despre",
+    "gallery": "Gallery",
+    "about": "About",
     "contact": "Contact",
-    "cta": "CREEAZĂ-ȚI TALISMANUL",
+    "cta": "CREATE YOUR TALISMAN",
 
-    "privacy": "Confidențialitate",
-    "terms": "Termeni",
+    "privacy": "Privacy",
+    "terms": "Terms",
     "gdpr": "GDPR"
   },
 
@@ -32,23 +65,23 @@
     "taglineLine2": "Made to speak.",
     "copyright": "© ADvantageStudio",
 
-    "companyTitle": "Companie",
-    "companyItem1": "Despre Taly",
-    "companyItem2": "Povestea noastră",
+    "companyTitle": "Company",
+    "companyItem1": "About Taly",
+    "companyItem2": "Our story",
     "companyItem3": "Contact",
 
-    "servicesTitle": "Servicii",
-    "servicesItem1": "Designuri personalizate",
-    "servicesItem2": "Prețuri",
+    "servicesTitle": "Services",
+    "servicesItem1": "Custom designs",
+    "servicesItem2": "Pricing",
     "servicesItem3": "Studio",
-    "servicesItem4": "Prețuri",
+    "servicesItem4": "Pricing",
 
-    "resourcesTitle": "Resurse",
-    "resourcesItem1": "Întrebări frecvente",
-    "resourcesItem2": "Suport și ghidaj",
+    "resourcesTitle": "Resources",
+    "resourcesItem1": "FAQ",
+    "resourcesItem2": "Support & guidance",
 
     "legalLink": "Legal",
-    "termsLink": "Termeni și condiții",
-    "cookiesLink": "Cookie-uri"
+    "termsLink": "Terms & Conditions",
+    "cookiesLink": "Cookies"
   }
 }

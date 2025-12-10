@@ -1,11 +1,41 @@
+"use client";
 import { useTranslations } from "next-intl";
+
+import HeroSection from "@/components/homepage/HeroSection";
+import SectionBanner from "@/components/homepage/SectionBanner";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
-
   return (
-    <main className="min-h-screen flex items-center justify-center bg-slate-900 text-white">
-      <h1 className="text-3xl font-semibold">{t("title")}</h1>
-    </main>
+    <>
+      <HeroSection />
+
+      <SectionBanner
+        image="/images/homepage/banner_1.jpg"
+        title={t("Banners.banner_1.title")}
+        description={t("Banners.banner_1.content")}
+        ctaLabel={t("Banners.banner_1.cta")}
+        ctaHref="/studio"
+        align="left"
+      />
+
+      <SectionBanner
+        image="/images/homepage/banner_2.jpg"
+        title={t("Banners.banner_2.title")}
+        description={t("Banners.banner_2.content")}
+        ctaLabel={t("Banners.banner_2.cta")}
+        ctaHref="/studio"
+        align="right"
+      />
+
+      <SectionBanner
+        image="/images/homepage/banner_3.jpg"
+        title={t("Banners.banner_2.title")}
+        description={t("Banners.banner_2.content")}
+        ctaLabel={t("Banners.banner_2.cta")}
+        ctaHref="/studio"
+        align="left"
+      />
+    </>
   );
 }
