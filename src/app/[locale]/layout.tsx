@@ -3,15 +3,15 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Geist_Mono } from "next/font/google";
 import "../globals.css";
 
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 const geistMono = Geist_Mono({
@@ -38,7 +38,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${inter.variable} ${geistMono.variable} font-sans`}>
         <NextIntlClientProvider>
           <Navbar />
           {children}
