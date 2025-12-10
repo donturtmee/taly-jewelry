@@ -1,9 +1,54 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "title": "WELCOME"
   },
+
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, en {EN} ro {RO} other {Unknown}}"
+  },
+
+  "Navigation": {
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "goHome": "Go home",
+
+    "home": "Home",
+    "login": "Login",
+    "studio": "Studio",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "CREATE YOUR TALISMAN",
+
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "gdpr": "GDPR"
+  },
+
+  "Footer": {
+    "taglineLine1": "Born from silence.",
+    "taglineLine2": "Made to speak.",
+    "copyright": "© ADvantageStudio",
+
+    "companyTitle": "Company",
+    "companyItem1": "About Taly",
+    "companyItem2": "Our story",
+    "companyItem3": "Contact",
+
+    "servicesTitle": "Services",
+    "servicesItem1": "Custom designs",
+    "servicesItem2": "Pricing",
+    "servicesItem3": "Studio",
+    "servicesItem4": "Pricing",
+
+    "resourcesTitle": "Resources",
+    "resourcesItem1": "FAQ",
+    "resourcesItem2": "Support & guidance",
+
+    "legalLink": "Legal",
+    "termsLink": "Terms & Conditions",
+    "cookiesLink": "Cookies"
   }
 }
