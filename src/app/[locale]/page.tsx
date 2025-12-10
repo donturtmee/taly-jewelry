@@ -3,12 +3,18 @@ import { useTranslations } from "next-intl";
 
 import HeroSection from "@/components/homepage/HeroSection";
 import SectionBanner from "@/components/homepage/SectionBanner";
+import CenteredStatement from "@/components/homepage/CenteredStatement";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
   return (
     <>
       <HeroSection />
+
+      <CenteredStatement
+        title={t("Statement.title")}
+        lines={[t("Statement.line1"), t("Statement.line2")]}
+      />
 
       <SectionBanner
         image="/images/homepage/banner_1.jpg"
