@@ -17,6 +17,12 @@
       "subhead": "Your birth chart, shaped into light."
     },
 
+    "Statement": {
+      "title": "YOUR BIRTH CHART, SHAPED INTO LIGHT.",
+      "line1": "Beyond trends and seasons, there is a map written only for you.",
+      "line2": "Our intelligent atelier reads your astrological chart and translates it into a protective talisman – a piece of jewellery that carries your true essence, close to your skin."
+    },
+
     "Banners": {
       "banner_1": {
         "title": "Nothing less\nthan pure light.",
@@ -33,6 +39,12 @@
         "content": "Every talisman begins with uncompromising materials. We work exclusively with VVS diamonds and precious metals refined to the highest standards, each stone hand-set to reveal its full clarity and fire. Because when a piece is meant to protect you, it deserves the finest light we can find.",
         "cta": "CREATE YOUR TALISMAN"
       }
+    },
+
+    "SideBanner": {
+      "left": "DESIGNED BY YOUR STARS.",
+      "right": "CRAFTED FOR A LIFETIME.",
+      "cta": "CREATE YOUR TALISMAN"
     }
   },
 

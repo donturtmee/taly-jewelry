@@ -137,7 +137,7 @@ export default function Footer() {
             </div>
 
             {/* 5. Social icons */}
-            <div className="flex items-center justify-center md:justify-end">
+            <div className="flex items-center justify-center md:justify-start">
               <div className="flex gap-5">
                 <a
                   href="https://facebook.com/taly.jewelry"
