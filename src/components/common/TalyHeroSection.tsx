@@ -16,7 +16,7 @@ function splitHeadlineLines(text: string): string[] {
     .filter(Boolean);
 }
 
-export default function HeroSection({
+export default function TalyHeroSection({
   videoMp4 = "/videos/homepage/HeroSection.mp4",
   videoWebm = "",
   poster = "/placeholder.jpg",

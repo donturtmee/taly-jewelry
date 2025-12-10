@@ -48,6 +48,44 @@
     }
   },
 
+  "AboutPage": {
+    "Hero": {
+      "title": "About us",
+      "imageAlt": "Jewelry hero image"
+    },
+
+    "Statement": {
+      "title": "A JEWELLERY HOUSE WRITTEN IN YOUR STARS.",
+      "line1": "TALY was created for those who want more than something beautiful to wear.",
+      "line2": "We use your astrological chart as our starting point, then let technology and craftsmanshipwork together to design a talisman only you could own. Every piece is a quiet alliance between your story, your sky and our atelier."
+    },
+
+    "ImageBlocks": {
+      "block1": {
+        "title": "WE BEGIN WITH YOUR SKY, NOT A SKETCH.",
+        "imageAlt": "Constellation sky",
+        "lines": [
+          "You share your date, time and place of birth. Our intelligent system studies the map of your planets, aspects and elements, and translates them into lines, curves and symbolic motifs.",
+          "What would normally remain an unseen pattern becomes the blueprint of your future talisman."
+        ]
+      },
+      "block2": {
+        "title": "AND END WITH A PIECE THAT FEELS LIKE YOU.",
+        "imageAlt": "Butterfly talisman",
+        "lines": [
+          "From that digital blueprint, our artisans choose metals, VVS diamonds and rare gemstones that resonate with your chart.",
+          "Each stone is set by hand, each proportion adjusted until the piece sits effortlessly on the body. The result is not a collection item, but a personal object you grow with over time."
+        ]
+      }
+    },
+
+    "StatementEnd": {
+      "title": "JEWELLERY THAT REMEMBERS WHO YOU ARE.",
+      "line1": "We do not design for everyone. We design for one person at a time.",
+      "line2": "Your talisman is meant to walk through years with you, to witness changes, to hold the intentions you set today. In a world of endless choice, TALY is our answer to a simple question: what if your most precious piece could only belong to you?"
+    }
+  },
+
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, en {EN} ro {RO} other {Unknown}}"

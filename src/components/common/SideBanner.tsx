@@ -57,7 +57,6 @@ export default function SideTextsBanner({
         />
         <div className="absolute inset-0 bg-black/40" />
 
-        {/* DESKTOP: texte centrate pe toată înălțimea */}
         <div className="absolute inset-0 hidden md:block">
           <div className="flex h-full items-center">
             <div className="mx-auto flex w-full max-w-7xl justify-between px-6 lg:px-8">
@@ -75,7 +74,6 @@ export default function SideTextsBanner({
           </div>
         </div>
 
-        {/* DESKTOP: buton ancorat jos */}
         <div className="absolute inset-x-0 bottom-16 hidden justify-center md:flex lg:bottom-20">
           <NavigationLink
             href={ctaHref}
@@ -85,7 +83,6 @@ export default function SideTextsBanner({
           </NavigationLink>
         </div>
 
-        {/* MOBILE */}
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 px-6 text-center text-white md:hidden">
           <p className="max-w-sm text-sm font-semibold uppercase tracking-[0.25em]">
             {leftTitle}
