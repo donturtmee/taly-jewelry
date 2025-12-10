@@ -1,16 +1,16 @@
 "use client";
 import { useTranslations } from "next-intl";
 
-import HeroSection from "@/components/homepage/HeroSection";
-import CenteredStatement from "@/components/homepage/CenteredStatement";
-import SectionBanner from "@/components/homepage/SectionBanner";
-import SideBanner from "@/components/homepage/SideBanner";
+import TalyHeroSection from "@/components/common/TalyHeroSection";
+import CenteredStatement from "@/components/common/CenteredStatement";
+import SectionBanner from "@/components/common/SectionBanner";
+import SideBanner from "@/components/common/SideBanner";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
   return (
     <>
-      <HeroSection />
+      <TalyHeroSection />
 
       <CenteredStatement
         title={t("Statement.title")}
