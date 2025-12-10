@@ -1,5 +1,54 @@
 {
   "HomePage": {
-    "title": "Salut!"
+    "title": "WELCOME"
+  },
+
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {EN} ro {RO} other {Unknown}}"
+  },
+
+  "Navigation": {
+    "menu": "Meniu",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul",
+    "goHome": "Mergi la pagina principală",
+
+    "home": "Acasă",
+    "login": "Autentificare",
+    "studio": "Studio",
+    "gallery": "Galerie",
+    "about": "Despre",
+    "contact": "Contact",
+    "cta": "CREEAZĂ-ȚI TALISMANUL",
+
+    "privacy": "Confidențialitate",
+    "terms": "Termeni",
+    "gdpr": "GDPR"
+  },
+
+  "Footer": {
+    "taglineLine1": "Born from silence.",
+    "taglineLine2": "Made to speak.",
+    "copyright": "© ADvantageStudio",
+
+    "companyTitle": "Companie",
+    "companyItem1": "Despre Taly",
+    "companyItem2": "Povestea noastră",
+    "companyItem3": "Contact",
+
+    "servicesTitle": "Servicii",
+    "servicesItem1": "Designuri personalizate",
+    "servicesItem2": "Prețuri",
+    "servicesItem3": "Studio",
+    "servicesItem4": "Prețuri",
+
+    "resourcesTitle": "Resurse",
+    "resourcesItem1": "Întrebări frecvente",
+    "resourcesItem2": "Suport și ghidaj",
+
+    "legalLink": "Legal",
+    "termsLink": "Termeni și condiții",
+    "cookiesLink": "Cookie-uri"
   }
 }
