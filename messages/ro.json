@@ -104,6 +104,57 @@
     }
   },
 
+  "Pricing": {
+    "backgroundAlt": "Taly pricing background with starry sky",
+    "title": "Choose your path through the Taly universe.",
+    "subtitle": "Pick the plan that matches how often you want to create new talisman stories and visuals.",
+    "plans": {
+      "first": {
+        "name": "First Constellation",
+        "tagline": "Your first steps into the Taly universe.",
+        "features": {
+          "item1": "5 AI story & jewellery image generations",
+          "item2": "Access to your personal Taly Studio dashboard",
+          "item3": "Save and revisit your favourite designs"
+        },
+        "price": "4,99",
+        "priceSuffix": "€/mo",
+        "cta": "Begin",
+        "note": "Perfect if you're just meeting Taly Studio and want to explore a few storylines and talisman visuals before going deeper."
+      },
+      "celestial": {
+        "name": "Celestial Journey",
+        "tagline": "Design, refine and rediscover your talisman story.",
+        "features": {
+          "item1": "25 AI story & jewellery image generations",
+          "item2": "Priority processing for new generations",
+          "item3": "Extended history of saved sessions"
+        },
+        "price": "9,99",
+        "priceSuffix": "€/mo",
+        "cta": "Explore",
+        "note": "For those who want room to play: experiment with multiple birth-chart stories, visual directions and stone combinations until it feels exactly like you."
+      },
+      "infinite": {
+        "name": "Infinite Sky",
+        "tagline": "Unlimited creations, one evolving universe.",
+        "features": {
+          "item1": "Unlimited AI story & jewellery image generations",
+          "item2": "Early access to new features and styles",
+          "item3": "Ideal for power users, studios or collectors"
+        },
+        "price": "99,99",
+        "priceSuffix": "€/mo",
+        "cta": "Unlock",
+        "note": "For devoted creators and collectors. Generate new talisman stories and images as you wish, while refining and growing a living galaxy of designs around your birth chart."
+      }
+    },
+    "footer": {
+      "line1": "All plans include access to Taly Studio, where you can save, revisit and refine every talisman you create.",
+      "line2": "You can upgrade, downgrade or cancel your plan at any time as your journey with Taly evolves."
+    }
+  },
+
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, en {EN} ro {RO} other {Unknown}}"
