@@ -155,6 +155,22 @@
     }
   },
 
+  "Login": {
+    "backgroundAlt": "Taly Studio login background with diamonds",
+    "title": "Welcome back",
+    "subtitle": "To your constellation.",
+    "intro": "Sign in to continue your talisman journey and keep all your Taly creations in one safe place.",
+    "form": {
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Password",
+      "submit": "Login"
+    },
+    "footer": {
+      "newLabel": "New to Taly Studio?",
+      "createAccount": "Create an account."
+    }
+  },
+
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, en {EN} ro {RO} other {Unknown}}"
