@@ -6,9 +6,6 @@ import type { Metadata } from "next";
 import { Inter, Geist_Mono } from "next/font/google";
 import "../globals.css";
 
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
-
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -30,20 +27,15 @@ type Props = {
 };
 
 export default async function LocaleLayout({ children, params }: Props) {
-  // Ensure that the incoming `locale` is valid
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={`${inter.variable} ${geistMono.variable} font-sans`}>
-        <NextIntlClientProvider>
-          <Navbar />
-          {children}
-          <Footer />
-        </NextIntlClientProvider>
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
   );
