@@ -182,25 +182,25 @@ export default function Navbar({
                 >
                   <div className="flex items-center justify-center gap-8 text-xs uppercase tracking-[0.35em] text-white/70">
                     <NavigationLink
-                      href="/privacy"
+                      href="/privacy-policy"
                       onClick={() => setMenuOpen(false)}
                       className="hover:text-white"
                     >
                       {t("privacy")}
                     </NavigationLink>
                     <NavigationLink
-                      href="/terms"
+                      href="/terms-and-conditions"
                       onClick={() => setMenuOpen(false)}
                       className="hover:text-white"
                     >
                       {t("terms")}
                     </NavigationLink>
                     <NavigationLink
-                      href="/gdpr"
+                      href="/cookies"
                       onClick={() => setMenuOpen(false)}
                       className="hover:text-white"
                     >
-                      {t("gdpr")}
+                      {t("cookies")}
                     </NavigationLink>
                   </div>
                 </motion.li>

@@ -1,6 +1,6 @@
-// src/app/[locale]/login/page.tsx
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 
 export default async function LoginPage() {
   const t = await getTranslations("Login");
@@ -19,7 +19,7 @@ export default async function LoginPage() {
 
       <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center px-4 sm:px-6 lg:px-8 pt-28 pb-16 lg:pt-32 lg:pb-24">
         <div className="flex w-full justify-center lg:justify-start">
-          <div className="w-full max-w-xl rounded-[32px] border border-white/15 bg-white/5 backdrop-blur-xs shadow-[0_24px_80px_rgba(0,0,0,0.60)] px-6 py-12 sm:px-10 sm:py-20">
+          <div className="w-full max-w-xl rounded-[32px] border border-white/15 bg-white/5 backdrop-blur-lg shadow-[0_24px_80px_rgba(0,0,0,0.60)] px-6 py-12 sm:px-10 sm:py-20">
             <div className="mb-8 sm:mb-10 text-center">
               <h1 className="text-2xl sm:text-3xl font-bold uppercase">
                 {t("title")}
@@ -63,12 +63,12 @@ export default async function LoginPage() {
 
             <div className="mt-10 sm:mt-16 flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-3 text-xs sm:text-sm text-white/90">
               <p>{t("footer.newLabel")}</p>
-              <button
-                type="button"
+              <Link
+                href="/register"
                 className="text-xs sm:text-sm font-medium hover:text-white/100"
               >
                 {t("footer.createAccount")}
-              </button>
+              </Link>
             </div>
           </div>
         </div>
