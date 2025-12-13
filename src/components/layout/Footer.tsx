@@ -185,18 +185,18 @@ export default function Footer() {
                 href="/legal"
                 className="text-slate-200 hover:text-slate-50"
               >
-                {t("legalLink")}
+                {t("privacyLink")}
               </NavigationLink>
               <span className="opacity-60">•</span>
               <NavigationLink
-                href="/legal/terms"
+                href="/terms"
                 className="text-slate-200 hover:text-slate-50"
               >
                 {t("termsLink")}
               </NavigationLink>
               <span className="opacity-60">•</span>
               <NavigationLink
-                href="/legal/cookies"
+                href="/cookies"
                 className="text-slate-200 hover:text-slate-50"
               >
                 {t("cookiesLink")}

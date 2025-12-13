@@ -155,6 +155,61 @@
     }
   },
 
+  "Login": {
+    "backgroundAlt": "Taly Studio login background with diamonds",
+    "title": "Welcome back",
+    "subtitle": "To your constellation.",
+    "intro": "Sign in to continue your talisman journey and keep all your Taly creations in one safe place.",
+    "form": {
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Password",
+      "submit": "Login"
+    },
+    "footer": {
+      "newLabel": "New to Taly Studio?",
+      "createAccount": "Create an account."
+    }
+  },
+
+  "Register": {
+    "backgroundAlt": "Taly Studio registration background with diamonds",
+    "title": "Create a new account",
+    "subtitle": "Begin your constellation.",
+    "stepIndicator": "Step {current} of {total}",
+    "steps": {
+      "1": {
+        "intro": "Start with the email address where you want to receive your Taly Studio access."
+      },
+      "2": {
+        "intro": "Enter the verification code we have just sent to your email."
+      },
+      "3": {
+        "intro": "Tell us a bit about you so we can align your experience with your birth chart."
+      },
+      "4": {
+        "intro": "Review your details and finish creating your account.",
+        "summaryTitle": "You are almost ready to enter your constellation.",
+        "summaryNote": "By tapping Finish, your Taly Studio account will be created and you will be able to personalise your talisman journey."
+      }
+    },
+    "form": {
+      "emailPlaceholder": "Email address",
+      "codePlaceholder": "Enter your code",
+      "firstNamePlaceholder": "First name",
+      "lastNamePlaceholder": "Last name",
+      "genderPlaceholder": "Select gender",
+      "genderFemale": "Female",
+      "genderMale": "Male",
+      "genderOther": "Prefer not to say",
+      "birthPlacePlaceholder": "Birth location (city, country)",
+      "back": "Back",
+      "next": "Next",
+      "finish": "Finish",
+      "alreadyAccount": "Already have an account?",
+      "loginCta": "Log in"
+    }
+  },
+
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, en {EN} ro {RO} other {Unknown}}"
@@ -176,7 +231,288 @@
 
     "privacy": "Privacy",
     "terms": "Terms",
-    "gdpr": "GDPR"
+    "cookies": "Cookies"
+  },
+
+  "PrivacyPolicy": {
+    "Hero": {
+      "title": "Privacy Policy",
+      "imageAlt": "Taly Jewelry and Taly Studio privacy background"
+    },
+    "Intro": {
+      "title": "How we protect your constellation.",
+      "lead": "This Privacy Policy explains what personal data we may collect, why we collect it, and how we protect it when you use Taly Jewelry and Taly Studio.",
+      "statementTitle": "Privacy, kept simple.",
+      "lines": [
+        "We only collect what we need to run the service and support you.",
+        "We apply practical safeguards to protect your information.",
+        "This is a short demo version for testing. We will expand it with full details before launch."
+      ]
+    },
+    "Sections": {
+      "section1": {
+        "title": "1. Who we are",
+        "paragraphs": [
+          "Taly Jewelry operates Taly Studio. In this policy, “we”, “us” and “our” refer to Taly Jewelry as the controller of personal data processed through our website and services.",
+          "If you have questions about this policy, you can contact us using the details provided on our website."
+        ]
+      },
+      "section2": {
+        "title": "2. What information we may collect",
+        "paragraphs": [
+          "Account details: such as your name and email address when you create an account or contact us.",
+          "Optional profile inputs: information you choose to provide to personalize your experience (for example, details used to generate stories or concepts).",
+          "Usage data: basic technical information like device/browser type and interactions with pages or features, used to understand performance and improve the product."
+        ]
+      },
+      "section3": {
+        "title": "3. How we use your information",
+        "paragraphs": [
+          "To provide and maintain the service, including authentication, saved preferences, and your requested features.",
+          "To improve stability, usability, and security, including debugging and preventing abuse.",
+          "To communicate with you about essential updates, support requests, or security-related messages."
+        ]
+      },
+      "section4": {
+        "title": "4. Cookies",
+        "paragraphs": [
+          "We may use cookies or similar technologies to keep the site working, maintain sessions, and remember preferences.",
+          "Where required, we will request consent before placing non-essential cookies, and you can adjust cookie preferences through your browser settings."
+        ]
+      },
+      "section5": {
+        "title": "5. Sharing and third parties",
+        "paragraphs": [
+          "We do not sell your personal data.",
+          "We may rely on trusted service providers (for example, hosting and infrastructure) to operate the service. They are only permitted to process data on our instructions and for the purpose of providing their services."
+        ]
+      },
+      "section6": {
+        "title": "6. Data security and retention",
+        "paragraphs": [
+          "We use reasonable technical and organisational measures to protect personal data against unauthorised access, loss, or misuse.",
+          "We keep personal data only as long as needed to provide the service, meet legal obligations, and resolve disputes."
+        ]
+      },
+      "section7": {
+        "title": "7. Your choices",
+        "paragraphs": [
+          "You can request access, correction, or deletion of your personal data, subject to applicable laws.",
+          "You can also opt out of non-essential cookies through your browser settings or any cookie controls we provide."
+        ]
+      },
+      "section8": {
+        "title": "8. Contact",
+        "paragraphs": [
+          "For privacy questions or requests related to your data, please contact us using the email address or contact details listed on our website."
+        ]
+      }
+    },
+    "LastUpdated": {
+      "label": "Last updated",
+      "date": "December 2025"
+    }
+  },
+
+  "Terms": {
+    "Hero": {
+      "title": "Terms & Conditions",
+      "imageAlt": "Taly Studio terms background"
+    },
+    "Intro": {
+      "title": "Terms, clearly stated.",
+      "lead": "These Terms explain how Taly Jewelry and Taly Studio work, what you can expect from the service, and what we ask from you while using it.",
+      "statementTitle": "Please read these terms carefully.",
+      "lines": [
+        "This is a short demo version for testing.",
+        "We will expand these Terms with full details before launch."
+      ]
+    },
+    "Sections": {
+      "section1": {
+        "title": "1. About the service",
+        "paragraphs": [
+          "Taly Jewelry provides access to Taly Studio, a digital experience for generating jewellery concepts and stories.",
+          "Features may evolve over time as we improve the product."
+        ]
+      },
+      "section2": {
+        "title": "2. Accounts",
+        "paragraphs": [
+          "You may need an account to save creations and access certain features.",
+          "You are responsible for keeping your account credentials secure."
+        ]
+      },
+      "section3": {
+        "title": "3. Acceptable use",
+        "paragraphs": [
+          "Do not misuse the service or attempt to disrupt it.",
+          "Do not upload unlawful content or content that violates the rights of others."
+        ]
+      },
+      "section4": {
+        "title": "4. Payments and subscriptions",
+        "paragraphs": [
+          "Some features may require a subscription or purchase.",
+          "Plan details and pricing are shown on the Pricing page."
+        ]
+      },
+      "section5": {
+        "title": "5. Contact",
+        "paragraphs": [
+          "If you have questions about these Terms, contact us using the details on our website."
+        ]
+      }
+    },
+    "LastUpdated": {
+      "label": "Last updated",
+      "date": "December 2025"
+    }
+  },
+
+  "CookiesPolicy": {
+    "Hero": {
+      "title": "Cookies Policy",
+      "imageAlt": "Taly Studio cookies policy background"
+    },
+    "Intro": {
+      "title": "Cookies, without the noise.",
+      "lead": "This page explains what cookies are, why we use them, and how you can manage your preferences on Taly Jewelry and Taly Studio.",
+      "statementTitle": "How we use cookies in Taly Studio.",
+      "lines": [
+        "We use essential cookies to keep the website working and to maintain basic sessions.",
+        "Where applicable, you can choose whether to allow non-essential cookies used for analytics or improvements.",
+        "This is a short demo version for testing. We will expand it with full details before launch."
+      ]
+    },
+    "Sections": {
+      "section1": {
+        "title": "1. What are cookies?",
+        "paragraphs": [
+          "Cookies are small text files stored on your device when you visit a website.",
+          "They help websites remember preferences, keep sessions active, and improve performance."
+        ]
+      },
+      "section2": {
+        "title": "2. Cookies we may use",
+        "paragraphs": [
+          "Essential cookies: required for core functionality, security, and basic navigation.",
+          "Preference cookies: used to remember settings such as language or UI preferences.",
+          "Analytics cookies: used to understand performance and improve the product (where enabled)."
+        ]
+      },
+      "section3": {
+        "title": "3. Managing your preferences",
+        "paragraphs": [
+          "You can control cookies through your browser settings, including blocking or deleting cookies.",
+          "If you disable essential cookies, some parts of the website may not work correctly."
+        ]
+      },
+      "section4": {
+        "title": "4. Updates to this policy",
+        "paragraphs": [
+          "We may update this Cookies Policy from time to time to reflect changes in the service or legal requirements.",
+          "When we make changes, we will update the “Last updated” date at the bottom of this page."
+        ]
+      }
+    },
+    "LastUpdated": {
+      "label": "Last updated",
+      "date": "December 2025"
+    }
+  },
+
+  "FAQ": {
+    "Hero": {
+      "title": "FAQ",
+      "imageAlt": "Taly Studio FAQ background"
+    },
+    "Intro": {
+      "title": "Answers, without the noise.",
+      "lead": "Here are the most common questions about Taly Studio, accounts, and how the experience works."
+    },
+    "Items": {
+      "item1": {
+        "q": "What is Taly Studio?",
+        "a": "Taly Studio is a digital experience that generates jewellery concepts and narratives based on your inputs and preferences."
+      },
+      "item2": {
+        "q": "Do I need an account to use it?",
+        "a": "You can explore some pages without an account, but saving creations and building a personal gallery requires signing in."
+      },
+      "item3": {
+        "q": "What data do you need from me?",
+        "a": "At minimum, we need an email for your account. Optional profile details help personalise the experience and improve your results."
+      },
+      "item4": {
+        "q": "Can I change my details later?",
+        "a": "Yes. You can update profile information and preferences anytime from your account settings."
+      },
+      "item5": {
+        "q": "How do I contact support?",
+        "a": "Use the Contact page to send a message. We typically reply within 1–2 business days."
+      }
+    },
+    "Footer": {
+      "note": "Can’t find what you’re looking for? Reach out via the Contact page.",
+      "supportCta": "Support",
+      "contactCta": "Contact"
+    }
+  },
+
+  "Support": {
+    "Hero": {
+      "title": "Support & Guidance",
+      "imageAlt": "Taly Studio support and guidance hero background"
+    },
+    "Intro": {
+      "title": "A clear path from birth chart to talisman concept.",
+      "lead": "This page explains how Taly Studio works, what you can do inside the app, and how to get help when you need it."
+    },
+    "Links": {
+      "pricing": "View Pricing",
+      "contact": "Contact our team"
+    },
+    "Ctas": {
+      "viewPlans": "View Plans",
+      "contactTeam": "Contact Team"
+    },
+    "Sections": {
+      "how": {
+        "title": "How Taly works",
+        "p1": "Taly Studio uses AI to generate a jewellery concept based on your birth chart inputs (date of birth, birth time, birth place, and optional profile details such as gender).",
+        "p2": "From these inputs, Taly creates a personalised narrative, highlights traits and themes, and proposes a jewellery direction that fits the person behind the chart.",
+        "freeLine": "You can try Taly with 3 free creations. After that, you’ll need to choose one of our plans."
+      },
+      "credits": {
+        "title": "Credits and generations",
+        "p1": "Each subscription plan includes a monthly credit allowance. Credits are used whenever you generate a new image inside Taly Studio.",
+        "bullets": {
+          "b1": "One image generation uses one credit.",
+          "b2": "Credits renew based on your billing cycle.",
+          "b3": "Your plan defines how many generations you can create each month."
+        }
+      },
+      "madeReal": {
+        "title": "Bring your jewellery concept to life",
+        "p1": "If you want, you can ask our team to create the jewellery piece in the real world based on your generated concept.",
+        "p2": "This is a paid service and pricing depends on materials, complexity, and stone choices. To discuss details, reach out via"
+      },
+      "gallery": {
+        "title": "Save, revisit, and share",
+        "p1": "Your account lets you build a personal library of concepts over time, so your journey stays consistent and easy to revisit.",
+        "bullets": {
+          "b1": "Save your favourite images to your personal gallery.",
+          "b2": "Share your results on social media to show others what Taly can create."
+        }
+      }
+    },
+    "Legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "cookies": "Cookies Policy",
+      "note": "For legal details about how we handle data and how the service works, please review the policies above."
+    }
   },
 
   "Footer": {
@@ -199,8 +535,8 @@
     "resourcesItem1": "FAQ",
     "resourcesItem2": "Support & guidance",
 
-    "legalLink": "Legal",
+    "privacyLink": "Privacy Policy",
     "termsLink": "Terms & Conditions",
-    "cookiesLink": "Cookies"
+    "cookiesLink": "Cookies Policy"
   }
 }
