@@ -391,6 +391,42 @@
     }
   },
 
+  "FAQ": {
+    "Hero": {
+      "title": "FAQ",
+      "imageAlt": "Taly Jewelry and Taly Studio FAQ hero background"
+    },
+    "Intro": {
+      "title": "Answers, without the noise.",
+      "lead": "Here are the most common questions about Taly Studio, accounts, and how the experience works."
+    },
+    "Items": {
+      "item1": {
+        "q": "What is Taly Studio?",
+        "a": "Taly Studio is a digital experience where you explore stories, motifs, and concepts designed around your preferences and the way you describe yourself."
+      },
+      "item2": {
+        "q": "Do I need an account to use it?",
+        "a": "Some features can be explored without signing in, but saving creations, preferences, and progress requires an account."
+      },
+      "item3": {
+        "q": "What data do you need from me?",
+        "a": "For a basic account we only need the essentials. Optional profile inputs can help personalize your experience, but they are not required."
+      },
+      "item4": {
+        "q": "Can I change my details later?",
+        "a": "Yes. You can update your profile information and preferences at any time from your account settings."
+      },
+      "item5": {
+        "q": "How do I contact support?",
+        "a": "Use the Contact page and send us a message. We usually reply within 1–2 business days."
+      }
+    },
+    "Footer": {
+      "note": "Can’t find what you’re looking for? Reach out via the Contact page."
+    }
+  },
+
   "Footer": {
     "taglineLine1": "Born from silence.",
     "taglineLine2": "Made to speak.",

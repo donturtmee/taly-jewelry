@@ -5,8 +5,8 @@ import HeroSection from "@/components/common/BasicHeroSection";
 import CenteredStatement from "@/components/common/CenteredStatement";
 import LegalPageContent from "@/components/legal/LegalPageContent";
 
-export default function TermsPage() {
-  const t = useTranslations("Terms");
+export default function CookiesPage() {
+  const t = useTranslations("CookiesPolicy");
 
   return (
     <>
@@ -21,7 +21,7 @@ export default function TermsPage() {
         lines={(t.raw("Intro.lines") as string[]) ?? []}
       />
 
-      <LegalPageContent namespace="Terms" />
+      <LegalPageContent namespace="CookiesPolicy" />
     </>
   );
 }
