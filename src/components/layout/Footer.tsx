@@ -189,7 +189,7 @@ export default function Footer() {
               </NavigationLink>
               <span className="opacity-60">•</span>
               <NavigationLink
-                href="/terms"
+                href="/terms-and-conditions"
                 className="text-slate-200 hover:text-slate-50"
               >
                 {t("termsLink")}
