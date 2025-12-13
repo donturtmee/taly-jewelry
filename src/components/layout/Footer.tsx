@@ -182,7 +182,7 @@ export default function Footer() {
           <div className="mt-10 border-t border-white/10 pt-6">
             <div className="flex flex-wrap justify-center gap-4 text-xs sm:text-sm text-slate-200">
               <NavigationLink
-                href="/legal"
+                href="/privacy-policy"
                 className="text-slate-200 hover:text-slate-50"
               >
                 {t("privacyLink")}
